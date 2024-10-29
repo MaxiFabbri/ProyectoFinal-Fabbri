@@ -1,0 +1,13 @@
+.Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin: 10px;
+}
+.button {
+    height: 40px;
+}
+.Number {
+    margin: 5px;
+}
