@@ -6,7 +6,7 @@ const Navbar = () => {
     return(
         <nav className="navbar-container sticky">
             <Link to='/'>
-                <h3>Quattrum</h3>
+                <h3>Merchandising</h3>
             </Link>
             <div className="Categories">
                 <NavLink to={`/category/Textiles`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Textiles</NavLink>
